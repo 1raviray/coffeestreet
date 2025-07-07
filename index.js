@@ -5,7 +5,7 @@ const cors=require("cors")
 app.use(cors())
 app.use(express.json())
 
-const contactrouter=require("../CoffeeServer/Routers/contactus")
+const contactrouter=require("./Routers/contactus")
 const productrouter=require("./Routers/productRouter")
 const blogrouter=require("./Routers/blogRouter")
 const registerrouter=require("./Routers/registerRouter")
